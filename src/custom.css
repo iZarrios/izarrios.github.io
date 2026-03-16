@@ -1,3 +1,7 @@
+:root {
+    --sidebar-target-width: 250px;
+}
+
 .content h2 {
     color: var(--sidebar-active);
 }
