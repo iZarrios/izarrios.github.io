@@ -7,7 +7,7 @@
 
 **Applied Scientist** | Microsoft — Cairo, Egypt | Jul 2024 – Aug 2025
 
-- Worked on the NLP inference engine powering SwiftKey, as well as Windows, Samsung keyboard and other partners (C++)
+- Worked on the NLP inference engine powering SwiftKey, Windows, Samsung keyboard and other partners (C++)
 - Adapted the engine for GPT-2–based models, extending support to modern transformer architectures
 - Contributed in the implementation of the ghost typing feature on the engine
 - Conducted benchmarking of engine and model integration (quality and performance) across multiple platforms, identifying and resolving critical performance bottlenecks, resulting in a 15% reduction in inference latency
