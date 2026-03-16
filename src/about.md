@@ -41,7 +41,13 @@
 
 ## Open Source Contributions
 
-[esnet/iperf](https://github.com/esnet/iperf) • [Chatterino/chatterino2](https://github.com/Chatterino/chatterino2) • [yorukot/superfile](https://github.com/yorukot/superfile)
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;">
+  <a href="https://github.com/dais-polymtl/flock"><img src="https://opengraph.githubassets.com/1/dais-polymtl/flock" alt="dais-polymtl/flock" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/AlexsJones/llmfit"><img src="https://opengraph.githubassets.com/1/AlexsJones/llmfit" alt="AlexsJones/llmfit" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/yorukot/superfile"><img src="https://opengraph.githubassets.com/1/yorukot/superfile" alt="yorukot/superfile" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/esnet/iperf"><img src="https://opengraph.githubassets.com/1/esnet/iperf" alt="esnet/iperf" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/Chatterino/chatterino2"><img src="https://opengraph.githubassets.com/1/Chatterino/chatterino2" alt="Chatterino/chatterino2" style="border-radius: 8px; width: 100%;"></a>
+</div>
 
 ---
 
