@@ -1,0 +1,13 @@
+[book]
+title = "Eyad Salama"
+authors = ["Eyad Salama"]
+language = "en"
+
+[output.html]
+no-section-label = true
+
+[build]
+build-dir = "book"
+create-missing = false
+use-default-preprocessors = true
+extra-watch-dirs = []
