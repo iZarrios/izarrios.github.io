@@ -6,6 +6,7 @@ language = "en"
 [output.html]
 no-section-label = true
 default-theme = "ayu"
+additional-css = ["src/custom.css"]
 
 [build]
 build-dir = "book"
