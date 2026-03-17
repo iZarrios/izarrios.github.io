@@ -1,3 +1,19 @@
+<div style="display: flex; gap: 24px; align-items: flex-start;">
+  <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
+  <div>
+
+Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I graduated with a B.Sc. in Computer and Communication Engineering from Alexandria University.
+
+Previously, I was an Applied Scientist at Microsoft, where I worked on the NLP inference engine powering SwiftKey, Windows, and Samsung keyboards — adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens working on AUTOSAR-compliant embedded systems and at ITTIA building database optimization tools and analytics dashboards. I also worked on HPC seismic data processing at Brightskies.
+
+
+  </div>
+</div>
+
+[esalama057@proton.me](mailto:esalama057@proton.me) | [LinkedIn](https://linkedin.com/in/esalama) | [GitHub](https://github.com/izarrios)
+
+---
+
 ## Experience
 
 **GenAI Engineer** | EnergyAI Berlin — Berlin, German | Aug 2025 – Feb 2026
@@ -54,3 +70,5 @@
 ## Skills
 
 C++, PyTorch, Machine Learning, Artificial Intelligence, CUDA, Triton, Python, Go, Rust, C, OMP, ONNX Runtime, MPI, Make, CMake, Ninja, Scons, Java, Scala, Docker, Git, Typescript, React
+
+
