@@ -58,11 +58,11 @@ Previously, I was an Applied Scientist at Microsoft, where I worked on the NLP i
 ## Open Source Contributions
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;">
-  <a href="https://github.com/dais-polymtl/flock"><img src="https://opengraph.githubassets.com/1/dais-polymtl/flock" alt="dais-polymtl/flock" style="border-radius: 8px; width: 100%;"></a>
-  <a href="https://github.com/AlexsJones/llmfit"><img src="https://opengraph.githubassets.com/1/AlexsJones/llmfit" alt="AlexsJones/llmfit" style="border-radius: 8px; width: 100%;"></a>
-  <a href="https://github.com/yorukot/superfile"><img src="https://opengraph.githubassets.com/1/yorukot/superfile" alt="yorukot/superfile" style="border-radius: 8px; width: 100%;"></a>
-  <a href="https://github.com/esnet/iperf"><img src="https://opengraph.githubassets.com/1/esnet/iperf" alt="esnet/iperf" style="border-radius: 8px; width: 100%;"></a>
-  <a href="https://github.com/Chatterino/chatterino2"><img src="https://opengraph.githubassets.com/1/Chatterino/chatterino2" alt="Chatterino/chatterino2" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/dais-polymtl/flock"><img src="og-cache/flock.png" alt="dais-polymtl/flock" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/AlexsJones/llmfit"><img src="og-cache/llmfit.png" alt="AlexsJones/llmfit" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/yorukot/superfile"><img src="og-cache/superfile.png" alt="yorukot/superfile" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/esnet/iperf"><img src="og-cache/iperf.png" alt="esnet/iperf" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/Chatterino/chatterino2"><img src="og-cache/chatterino2.png" alt="Chatterino/chatterino2" style="border-radius: 8px; width: 100%;"></a>
 </div>
 
 ---

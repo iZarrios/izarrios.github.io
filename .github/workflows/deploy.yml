@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: '0 0 * * *' # daily at midnight UTC to refresh cached OG images
 
 jobs:
   deploy:
@@ -23,6 +25,14 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Cache OpenGraph images
+        run: |
+          mkdir -p src/og-cache
+          curl -sSL -o src/og-cache/flock.png "https://opengraph.githubassets.com/1/dais-polymtl/flock"
+          curl -sSL -o src/og-cache/llmfit.png "https://opengraph.githubassets.com/1/AlexsJones/llmfit"
+          curl -sSL -o src/og-cache/superfile.png "https://opengraph.githubassets.com/1/yorukot/superfile"
+          curl -sSL -o src/og-cache/iperf.png "https://opengraph.githubassets.com/1/esnet/iperf"
+          curl -sSL -o src/og-cache/chatterino2.png "https://opengraph.githubassets.com/1/Chatterino/chatterino2"
       - name: Build Book
         run: |
           # This assumes your book is in the root of your repository.
