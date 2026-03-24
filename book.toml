@@ -13,3 +13,6 @@ build-dir = "book"
 create-missing = false
 use-default-preprocessors = true
 extra-watch-dirs = []
+
+[output.html.print]
+enable = false    # include support for printable output
