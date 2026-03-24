@@ -25,14 +25,25 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
-      - name: Cache OpenGraph images
+      - name: Restore cached OpenGraph images
+        uses: actions/cache@v4
+        with:
+          path: src/og-cache
+          key: og-cache
+      - name: Refresh OpenGraph images
         run: |
           mkdir -p src/og-cache
-          curl -sSL --fail -o src/og-cache/flock.png "https://opengraph.githubassets.com/1/dais-polymtl/flock" || true
-          curl -sSL --fail -o src/og-cache/llmfit.png "https://opengraph.githubassets.com/1/AlexsJones/llmfit" || true
-          curl -sSL --fail -o src/og-cache/superfile.png "https://opengraph.githubassets.com/1/yorukot/superfile" || true
-          curl -sSL --fail -o src/og-cache/iperf.png "https://opengraph.githubassets.com/1/esnet/iperf" || true
-          curl -sSL --fail -o src/og-cache/chatterino2.png "https://opengraph.githubassets.com/1/Chatterino/chatterino2" || true
+          repos="dais-polymtl/flock AlexsJones/llmfit yorukot/superfile esnet/iperf Chatterino/chatterino2"
+          for repo in $repos; do
+            name=$(echo "$repo" | tr '/' '-' | awk -F'-' '{print $NF}')
+            tmp=$(mktemp)
+            if curl -sSL --fail -o "$tmp" "https://opengraph.githubassets.com/1/${repo}" && [ -s "$tmp" ]; then
+              mv "$tmp" "src/og-cache/${name}.png"
+            else
+              rm -f "$tmp"
+              echo "::warning::Failed to fetch OG image for ${repo}, keeping cached version"
+            fi
+          done
       - name: Build Book
         run: |
           # This assumes your book is in the root of your repository.
