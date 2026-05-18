@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 0 * * *' # daily at midnight UTC to refresh cached OG images
+    - cron: '0 0 * * 0' # weekly on Sunday at midnight UTC to refresh cached OG images
 
 jobs:
   deploy:
