@@ -18,8 +18,8 @@ Previously, I was an Applied Scientist at Microsoft, where I worked on the NLP i
 
 **GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin - Berlin, Germany | Aug 2025 – Feb 2026
 
-- Designed and deployed multi-agent GenAI systems, orchestrating specialized agents to automate complex, multi-step workflows
-- Built and managed end-to-end data pipelines to support model fine-tuning and RAG solutions
+- Designed multi-agent architecture and deployment for [GridOS](https://energyai.berlin/gridos), orchestrating specialized agents for energy grid operations (Google ADK, Vertex Agent Engine, Vercel AI SDK)
+- Built Databricks pipelines to fine-tune models for energy grid operations, including automated ingestion, cleaning, and validation from web and structured sources
 
 **Applied Scientist** | <img src="logos/microsoft.png" height="20" style="vertical-align: middle;"> Microsoft - Cairo, Egypt | Jul 2024 – Aug 2025
 
