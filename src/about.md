@@ -2,15 +2,15 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I graduated with a B.Sc. in Computer and Communication Engineering from Alexandria University.
+Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/en/) and [Mila](https://mila.quebec/en/), in the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl).
 
-Previously, I was an Applied Scientist at Microsoft, where I worked on the NLP inference engine powering SwiftKey, Windows, and Samsung keyboards - adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens working on AUTOSAR-compliant embedded systems and at ITTIA building database optimization tools and analytics dashboards. I also worked on HPC and parallel programming at Brightskies.
+Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboards, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
 
 
   </div>
 </div>
 
-[esalama057@proton.me](mailto:esalama057@proton.me) | [LinkedIn](https://linkedin.com/in/esalama) | [GitHub](https://github.com/izarrios)
+[eyad.salama@mila.quebec](mailto:eyad.salama@mila.quebec) | [esalama057@proton.me](mailto:esalama057@proton.me) | [LinkedIn](https://linkedin.com/in/esalama) | [GitHub](https://github.com/izarrios)
 
 ---
 
@@ -50,6 +50,8 @@ Previously, I was an Applied Scientist at Microsoft, where I worked on the NLP i
 ---
 
 ## Education
+
+**Master of Science, Computer Engineering** | [Polytechnique Montréal](https://www.polymtl.ca/en/) - Montréal, Canada | May 2026 – Present
 
 **Bachelor of Science, Computer and Communication Engineering** | Alexandria University - Alexandria, Egypt | Sep 2019 – Jul 2024
 
