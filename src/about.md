@@ -2,9 +2,9 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/en/) and [Mila](https://mila.quebec/en/), in the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl).
+Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I'm a Master's student in computer engineering at Polytechnique Montréal and [Mila](https://mila.quebec/en/), in the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl).
 
-Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboards, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
+Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboard, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
 
 
   </div>
@@ -16,12 +16,16 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 
 ## Experience
 
-**GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin - Berlin, Germany | Aug 2025 – Feb 2026
+**Research Master's Student** | <img src="logos/mila.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> Mila - Quebec AI Institute <br> Québec, Canada | May 2026 – Present
+
+- Research in data and AI systems at the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl)
+
+**GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin <br> Berlin, Germany | Aug 2025 – Feb 2026
 
 - Designed multi-agent architecture and deployment for [GridOS](https://energyai.berlin/gridos), orchestrating specialized agents for energy grid operations (Google ADK, Vertex Agent Engine, Vercel AI SDK)
 - Built Databricks pipelines to fine-tune models for energy grid operations, including automated ingestion, cleaning, and validation from web and structured sources
 
-**Applied Scientist** | <img src="logos/microsoft.png" height="20" style="vertical-align: middle;"> Microsoft - Cairo, Egypt | Jul 2024 – Aug 2025
+**Applied Scientist** | <img src="logos/microsoft.png" height="20" style="vertical-align: middle;"> Microsoft <br> Cairo, Egypt | Jul 2024 – Aug 2025
 
 - Worked on the NLP inference engine powering SwiftKey, Windows, Samsung keyboard and other partners (C++)
 - Adapted the engine for GPT-2–based models, extending support to modern transformer architectures
@@ -29,20 +33,20 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 - Conducted benchmarking of engine and model integration (quality and performance) across multiple platforms, identifying and resolving critical performance bottlenecks, resulting in a 15% reduction in inference latency
 - Developed a tool for evaluating and optimizing engine by searching with various strategies and hyperparameters to assess inference engine performance and accuracy, improving en\_US locale predictions accuracy by 5%
 
-**Software Engineer Intern** | <img src="logos/siemens.png" height="20" style="vertical-align: middle;"> Siemens - Cairo, Egypt | Sep 2023 – Jul 2024
+**Embedded Software Engineer** | <img src="logos/siemens.png" height="20" style="vertical-align: middle;"> Siemens <br> Cairo, Egypt | Sep 2023 – Jul 2024
 
 - Developed and integrated a CAN communication stack compliant with AUTOSAR standards, including message parsing, transmission scheduling, and error handling (C/C++)
 - Implemented a bootloader in Embedded C with Firmware Over-The-Air (FOTA), reducing update deployment time by 50%
 - Designed and deployed real-time tasks on OSEK/VDX OS, optimizing system performance and reliability, leading to a 10% improvement in task execution efficiency
 
-**Software Engineer** | <img src="logos/ittia.png" height="20" style="vertical-align: middle;"> ITTIA - Bellevue, USA | Oct 2023 – Jul 2024
+**Software Engineer** | <img src="logos/ittia.png" height="20" style="vertical-align: middle;"> ITTIA <br> Bellevue, USA | Oct 2023 – Jul 2024
 
 - Implemented database optimization algorithms resulting in 30% query performance improvement (C/C++)
 - Led the development of a new UI tool used for users to interact with dashboards which included multiple system/database analytics, increasing user engagement by 25% (React, Typescript)
 - Increased test coverage by 30% across multiple components of the product
 - Identified and resolved several critical performance bottlenecks on various embedded devices and platforms, such as optimizing memory usage on ARM Cortex-M microcontrollers and reducing boot times on IoT gateways
 
-**High Performance Computing Intern** | <img src="logos/brightskies.png" height="20" style="vertical-align: middle;"> Brightskies - Alexandria, Egypt | Jul 2023 – Sep 2023
+**High Performance Computing Intern** | <img src="logos/brightskies.png" height="20" style="vertical-align: middle;"> Brightskies <br> Alexandria, Egypt | Jul 2023 – Sep 2023
 
 - Worked on an internal seismic data processor in supporting multiple industry formats, supporting parallel I/O and CUDA computations for large-scale geophysical datasets (C++, CUDA)
 - Developed a user-friendly command-line interface to encapsulate and simplify usage of an internal library, improving team productivity
@@ -51,9 +55,9 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 
 ## Education
 
-**Master of Science, Computer Engineering** | [Polytechnique Montréal](https://www.polymtl.ca/en/) - Montréal, Canada | May 2026 – Present
+**Master of Science, Computer Engineering** | Polytechnique Montréal<br>Montréal, QC, Canada | May 2026 – Present
 
-**Bachelor of Science, Computer and Communication Engineering** | Alexandria University - Alexandria, Egypt | Sep 2019 – Jul 2024
+**Bachelor of Science, Computer and Communication Engineering** | Alexandria University<br>Alexandria, Egypt | Sep 2019 – Jul 2024
 
 ---
 
