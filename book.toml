@@ -8,6 +8,9 @@ no-section-label = true
 default-theme = "ayu"
 additional-css = ["src/custom.css"]
 
+[output.html.search]
+enable = false
+
 [build]
 build-dir = "book"
 create-missing = false
