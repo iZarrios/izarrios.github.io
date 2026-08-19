@@ -1,5 +1,6 @@
 :root {
     --sidebar-target-width: 250px;
+    --search-mark-bg: #4a9cd1;
 }
 
 .content h2 {
@@ -8,13 +9,14 @@
 
 .content strong {
     color: var(--search-mark-bg);
+    font-weight: 600;
 }
 
 .content a {
     color: var(--links);
     text-decoration: underline;
     text-decoration-color: transparent;
-    transition: text-decoration-color 0.2s;
+    transition: text-decoration-color 0.2s ease-in-out;
 }
 
 .content a:hover {
@@ -23,5 +25,24 @@
 
 .content hr {
     border-color: var(--sidebar-active);
-    opacity: 0.3;
+    opacity: 0.6;
+}
+
+/* CV link in navbar */
+#mdbook-menu-bar .right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+#mdbook-menu-bar .cv-link {
+    color: var(--icons);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: var(--menu-bar-height);
+    transition: color 0.2s;
+}
+
+#mdbook-menu-bar .cv-link:hover {
+    color: var(--links);
+    text-decoration: underline;
 }

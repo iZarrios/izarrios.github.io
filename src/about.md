@@ -2,7 +2,9 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-Engineer specializing in database systems, machine learning inference, parallel computing, and low-level systems optimization. I'm a Master's student in computer engineering at Polytechnique Montréal and [Mila](https://mila.quebec/en/), in the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl).
+I'm a Master's student in computer engineering at Polytechnique Montréal and [Mila](https://mila.quebec/en/), building cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
+
+Focused on cost-aware query optimization, LLM inference, execution systems, and multimodal analytics.
 
 Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboard, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
 
@@ -10,9 +12,10 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
   </div>
 </div>
 
-[eyad.salama@mila.quebec](mailto:eyad.salama@mila.quebec) | [esalama057@proton.me](mailto:esalama057@proton.me) | [LinkedIn](https://linkedin.com/in/esalama) | [GitHub](https://github.com/izarrios)
+<div style="display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;">
+  <a href="mailto:eyad.salama@mila.quebec" style="text-decoration: underline;">eyad.salama@mila.quebec</a> | <a href="mailto:esalama057@proton.me" style="text-decoration: underline;">esalama057@proton.me</a> | <a href="https://linkedin.com/in/esalama" style="text-decoration: underline;">LinkedIn</a> | <a href="https://github.com/izarrios" style="text-decoration: underline;">GitHub</a>
+</div>
 
----
 
 ## Experience
 
@@ -51,7 +54,6 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 - Worked on an internal seismic data processor in supporting multiple industry formats, supporting parallel I/O and CUDA computations for large-scale geophysical datasets (C++, CUDA)
 - Developed a user-friendly command-line interface to encapsulate and simplify usage of an internal library, improving team productivity
 
----
 
 ## Education
 
@@ -59,7 +61,6 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 
 **Bachelor of Science, Computer and Communication Engineering** | Alexandria University<br>Alexandria, Egypt | Sep 2019 – Jul 2024
 
----
 
 ## Open Source Contributions
 
@@ -71,7 +72,6 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
   <a href="https://github.com/Chatterino/chatterino2"><img src="og-cache/chatterino2.png" alt="Chatterino/chatterino2" style="border-radius: 8px; width: 100%;"></a>
 </div>
 
----
 
 ## Certifications
 
@@ -87,7 +87,6 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 - **Unsupervised Learning, Recommenders, Reinforcement Learning** - Coursera
 - **AWS Academy Graduate - AWS Academy Cloud Foundations** - Amazon Web Services
 
----
 
 ## Skills
 

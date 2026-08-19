@@ -7,6 +7,7 @@ language = "en"
 no-section-label = true
 default-theme = "light"
 additional-css = ["src/custom.css"]
+additional-js = ["src/custom-theme.js"]
 
 [output.html.search]
 enable = false
