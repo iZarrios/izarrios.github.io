@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="{{ language }}" class="{{ default_theme }} sidebar-visible" dir="{{ text_direction }}">
+<html lang="{{ language }}" class="grid-theme" dir="{{ text_direction }}">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -17,7 +17,13 @@
 
         <meta name="description" content="{{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#f8f9fa">
+
+        <!-- Force dark text on light background to prevent white-text flash -->
+        <style>
+            body { background: #f8f9fa !important; color: #1a202c !important; }
+            .content, .content * { color: #1a202c !important; }
+        </style>
 
         {{#if favicon_svg}}
         <link rel="icon" href="{{ resource "favicon.svg" }}">
