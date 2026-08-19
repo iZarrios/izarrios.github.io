@@ -5,7 +5,7 @@ language = "en"
 
 [output.html]
 no-section-label = true
-default-theme = "ayu"
+default-theme = "light"
 additional-css = ["src/custom.css"]
 
 [output.html.search]
