@@ -1,6 +1,8 @@
 :root {
     --sidebar-target-width: 250px;
     --search-mark-bg: #4a9cd1;
+    /* mdBook default is 62.5%; lower this to scale rem-based UI/content */
+    font-size: 55%;
 }
 
 /* Grid (Systems) Theme - Applied globally */
