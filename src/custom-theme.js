@@ -47,25 +47,6 @@
     background: #1a202c !important;
 }
 
-.grid-theme .content a {
-    position: relative;
-}
-
-.grid-theme .content a::before {
-    content: '>';
-    position: absolute;
-    left: -12px;
-    opacity: 0;
-    color: #3182ce;
-    transition: opacity 0.2s;
-}
-
-.grid-theme .content a:hover::before {
-    opacity: 1;
-}
-
-
-
 .grid-theme .cv-link {
     font-family: 'JetBrains Mono', monospace !important;
     border: 1px solid #3182ce;
