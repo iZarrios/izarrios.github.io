@@ -13,7 +13,7 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;">
-  <a href="mailto:eyad.salama@mila.quebec" style="text-decoration: underline;">eyad.salama@mila.quebec</a> | <a href="mailto:esalama057@proton.me" style="text-decoration: underline;">esalama057@proton.me</a> | <a href="https://linkedin.com/in/esalama" style="text-decoration: underline;">LinkedIn</a> | <a href="https://github.com/izarrios" style="text-decoration: underline;">GitHub</a>
+  <a href="mailto:eyad.salama@mila.quebec" style="text-decoration: underline;">eyad.salama@mila.quebec</a> | <a href="mailto:esalama057@proton.me" style="text-decoration: underline;">esalama057@proton.me</a> | <a href="https://linkedin.com/in/esalama" style="text-decoration: underline;">LinkedIn</a> | <a href="https://github.com/izarrios" style="text-decoration: underline;">GitHub</a> | <a href="cv.pdf" target="_blank" style="text-decoration: underline;">CV</a>
 </div>
 
 
