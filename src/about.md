@@ -2,9 +2,7 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-I'm a Master's student in computer engineering at Polytechnique Montréal and [Mila](https://mila.quebec/en/), building cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
-
-Focused on cost-aware query optimization, LLM inference, execution systems, and multimodal analytics.
+I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working with the [DAIS lab](https://github.com/dais-polymtl) on cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
 
 Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboard, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
 
