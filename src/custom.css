@@ -50,12 +50,6 @@ body {
 .content a {
     color: var(--links);
     text-decoration: underline;
-    text-decoration-color: transparent;
-    transition: text-decoration-color 0.2s ease-in-out;
-}
-
-.content a:hover {
-    text-decoration-color: var(--links);
 }
 
 .content hr {
