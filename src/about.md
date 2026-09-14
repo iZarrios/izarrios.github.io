@@ -1,4 +1,4 @@
-<div style="display: flex; gap: 24px; align-items: flex-start;">
+<div style="display: flex; gap: 24px; align-items: center;">
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
