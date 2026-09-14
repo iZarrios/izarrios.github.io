@@ -1,6 +1,7 @@
 [book]
 title = "Eyad Salama"
 authors = ["Eyad Salama"]
+description = "Eyad Salama — Master's student in computer engineering at Polytechnique Montréal and Mila (DAIS lab). Research in cost-efficient AI-powered data systems."
 language = "en"
 
 [output.html]

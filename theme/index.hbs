@@ -6,6 +6,8 @@
         <title>Eyad Salama</title>
         {{#if is_print }}
         <meta name="robots" content="noindex">
+        {{else}}
+        <meta name="robots" content="index, follow">
         {{/if}}
         {{#if base_url}}
         <base href="{{ base_url }}">
