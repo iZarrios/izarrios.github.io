@@ -47,18 +47,6 @@
     background: #1a202c !important;
 }
 
-.grid-theme .cv-link {
-    font-family: 'JetBrains Mono', monospace !important;
-    border: 1px solid #3182ce;
-    padding: 4px 10px;
-    background: rgba(49, 130, 206, 0.05);
-}
-
-.grid-theme .cv-link:hover {
-    background: #3182ce !important;
-    color: white !important;
-}
-
 /* Hide sidebar */
 #mdbook-sidebar {
     display: none !important;
@@ -80,6 +68,7 @@ body.sidebar-visible {
 .content {
     max-width: 900px;
     margin: 0 auto;
+    padding-top: 2.4rem;
 }
 `;
 

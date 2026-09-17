@@ -56,22 +56,3 @@ body {
     border-color: var(--sidebar-active);
     opacity: 0.6;
 }
-
-/* CV link in navbar */
-#mdbook-menu-bar .right-buttons {
-    display: flex;
-    align-items: center;
-}
-
-#mdbook-menu-bar .cv-link {
-    color: var(--icons);
-    text-decoration: none;
-    font-weight: 500;
-    line-height: var(--menu-bar-height);
-    transition: color 0.2s;
-}
-
-#mdbook-menu-bar .cv-link:hover {
-    color: var(--links);
-    text-decoration: underline;
-}
