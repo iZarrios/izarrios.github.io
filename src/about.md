@@ -1,5 +1,5 @@
 <div style="display: flex; gap: 24px; align-items: center;">
-  <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; flex-shrink: 0; object-fit: cover; height: 180px;">
+  <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
 I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working in the [DAIS lab](https://github.com/dais-polymtl) on cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
