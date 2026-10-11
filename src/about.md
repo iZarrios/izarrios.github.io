@@ -2,7 +2,7 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working in the [DAIS lab](https://github.com/dais-polymtl) on cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
+I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working in the [DAIS lab](https://github.com/dais-labo) on cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
 
 Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboard, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
 
@@ -19,7 +19,7 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 
 **Research Master's Student** | <img src="logos/mila.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> Mila - Quebec AI Institute <br> Québec, Canada | May 2026 – Present
 
-- Research in data and AI systems at the [Data and AI Systems (DAIS) Lab](https://github.com/dais-polymtl)
+- Research in data and AI systems at the [Data and AI Systems (DAIS) Lab](https://github.com/dais-labo)
 
 **GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin <br> Berlin, Germany | Aug 2025 – Feb 2026
 
@@ -63,7 +63,7 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 ## Open Source Contributions
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;">
-  <a href="https://github.com/dais-polymtl/flock"><img src="og-cache/flock.png" alt="dais-polymtl/flock" style="border-radius: 8px; width: 100%;"></a>
+  <a href="https://github.com/dais-labo/flock"><img src="og-cache/flock.png" alt="dais-labo/flock" style="border-radius: 8px; width: 100%;"></a>
   <a href="https://github.com/AlexsJones/llmfit"><img src="og-cache/llmfit.png" alt="AlexsJones/llmfit" style="border-radius: 8px; width: 100%;"></a>
   <a href="https://github.com/yorukot/superfile"><img src="og-cache/superfile.png" alt="yorukot/superfile" style="border-radius: 8px; width: 100%;"></a>
   <a href="https://github.com/esnet/iperf"><img src="og-cache/iperf.png" alt="esnet/iperf" style="border-radius: 8px; width: 100%;"></a>
