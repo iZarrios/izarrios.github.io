@@ -15,6 +15,13 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 </div>
 
 
+## Education
+
+**Master of Science, Computer Engineering** | Polytechnique Montréal<br>Montréal, QC, Canada | May 2026 – Present
+
+**Bachelor of Science, Computer and Communication Engineering** | Alexandria University<br>Alexandria, Egypt | Sep 2019 – Jul 2024
+
+
 ## Experience
 
 **Research Master's Student** | <img src="logos/mila.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> Mila - Quebec AI Institute <br> Québec, Canada | May 2026 – Present
@@ -53,11 +60,11 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 - Developed a user-friendly command-line interface to encapsulate and simplify usage of an internal library, improving team productivity
 
 
-## Education
+## Teaching
 
-**Master of Science, Computer Engineering** | Polytechnique Montréal<br>Montréal, QC, Canada | May 2026 – Present
+**INF3710: Files and Databases** | Polytechnique Montréal<br>Montréal, QC, Canada | Fall 2026
 
-**Bachelor of Science, Computer and Communication Engineering** | Alexandria University<br>Alexandria, Egypt | Sep 2019 – Jul 2024
+- TA for Professor Amine Mhedhbi
 
 
 ## Open Source Contributions
