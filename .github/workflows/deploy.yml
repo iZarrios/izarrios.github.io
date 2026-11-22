@@ -24,31 +24,35 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
-      - name: Restore cached OpenGraph images
-        uses: actions/cache@v4
-        with:
-          path: src/og-cache
-          key: og-cache-${{ github.run_id }}
-          restore-keys: og-cache-
       - name: Refresh OpenGraph images
         run: |
           mkdir -p src/og-cache
           repos="dais-polymtl/flock AlexsJones/llmfit yorukot/superfile esnet/iperf Chatterino/chatterino2"
+          # The hash segment is a cache-buster; change it weekly so GitHub's CDN serves a fresh card.
+          hash=$(date -u +%G%V)
+          # Fetch URL $1 into file $2; succeed only if it is a non-empty PNG.
+          fetch_png() { curl -sSL --fail -o "$2" "$1" && head -c 8 "$2" | grep -q PNG; }
           for repo in $repos; do
             name="${repo##*/}"
-            tmp=$(mktemp)
-            success=false
-            for attempt in 1 2 3; do
-              if curl -sSL --fail -o "$tmp" "https://opengraph.githubassets.com/1/${repo}" && [ -s "$tmp" ]; then
-                mv "$tmp" "src/og-cache/${name}.png"
-                success=true
+            out="src/og-cache/${name}.png"
+            fresh=false
+            for attempt in 1 2 3 4 5; do
+              if fetch_png "https://opengraph.githubassets.com/${hash}/${repo}" "$out"; then
+                fresh=true
                 break
               fi
-              sleep 5
+              sleep $((attempt * 10))
             done
-            if [ "$success" = false ]; then
-              rm -f "$tmp"
-              echo "::warning::Failed to fetch OG image for ${repo}, keeping cached version"
+            if [ "$fresh" = true ]; then
+              continue
+            fi
+            # GitHub Actions caches expire after 7 days unused, so fall back to the copy
+            # that is currently deployed on the live site instead.
+            if fetch_png "https://izarrios.github.io/og-cache/${name}.png" "$out"; then
+              echo "::warning::Failed to fetch fresh OG image for ${repo}, reusing the currently deployed one"
+            else
+              rm -f "$out"
+              echo "::error::Failed to fetch OG image for ${repo} and no deployed copy exists; the card will be missing"
             fi
           done
       - name: Build Book
