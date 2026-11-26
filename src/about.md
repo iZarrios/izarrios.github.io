@@ -2,9 +2,11 @@
   <img src="pic.jpg" alt="Eyad Salama" style="width: 180px; border-radius: 50%; flex-shrink: 0; object-fit: cover; height: 180px;">
   <div>
 
-I'm a Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working in the [DAIS lab](https://github.com/dais-labo) on cost-efficient AI-powered data systems by making semantic operators first-class components of relational DBMSs.
+I'm a research Master's student in computer engineering at [Polytechnique Montréal](https://www.polymtl.ca/) and [Mila](https://mila.quebec/en/), working in the [DAIS lab](https://github.com/dais-labo).
 
-Previously, I was an Applied Scientist at Microsoft on the NLP inference engine behind SwiftKey, Windows, and Samsung keyboard, adapting it for GPT-2–based models and optimizing inference latency. Before that, I interned at Siemens on embedded systems, at ITTIA on database optimization, and at Brightskies on HPC and parallel programming.
+Before that, I was a GenAI Engineer at EnergyAI in Berlin, building multi-agent LLM systems, and an Applied Scientist at Microsoft, working on the language-model inference engine behind SwiftKey. Earlier, I worked on embedded systems at Siemens, databases at ITTIA, and HPC at Brightskies.
+
+My research interests include LLM-powered data systems, efficient LLM inference, and query optimization.
 
 
   </div>
@@ -24,40 +26,17 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 
 ## Experience
 
-**Research Master's Student** | <img src="logos/mila.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> Mila - Quebec AI Institute <br> Québec, Canada | May 2026 – Present
+**Research Master's Student** | <img src="logos/mila.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> Mila - Quebec AI Institute <br> Québec, Canada | May 2026 – Present <br> Cost-efficient semantic query processing over LLMs; working on [Flock](https://github.com/dais-labo/flock) and FFX
 
-- Research in data and AI systems at the [Data and AI Systems (DAIS) Lab](https://github.com/dais-labo)
+**GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin <br> Berlin, Germany | Aug 2025 – Feb 2026 <br> Multi-agent LLM system for [GridOS](https://energyai.berlin/gridos) on Google ADK and Vertex AI; training-data pipelines and model fine-tuning
 
-**GenAI Engineer** | <img src="logos/energyai.png" height="20" style="vertical-align: middle; background: white; border-radius: 4px; padding: 2px;"> EnergyAI Berlin <br> Berlin, Germany | Aug 2025 – Feb 2026
+**Applied Scientist** | <img src="logos/microsoft.png" height="20" style="vertical-align: middle;"> Microsoft <br> Cairo, Egypt | Jul 2024 – Aug 2025 <br> SwiftKey's NLP inference engine: GPT-2 support, evaluation tooling, and lower inference latency
 
-- Designed multi-agent architecture and deployment for [GridOS](https://energyai.berlin/gridos), orchestrating specialized agents for energy grid operations (Google ADK, Vertex Agent Engine, Vercel AI SDK)
-- Built Databricks pipelines to fine-tune models for energy grid operations, including automated ingestion, cleaning, and validation from web and structured sources
+**Embedded Software Engineer** | <img src="logos/siemens.png" height="20" style="vertical-align: middle;"> Siemens <br> Cairo, Egypt | Sep 2023 – Jul 2024 <br> AUTOSAR CAN communication stack and FOTA bootloader
 
-**Applied Scientist** | <img src="logos/microsoft.png" height="20" style="vertical-align: middle;"> Microsoft <br> Cairo, Egypt | Jul 2024 – Aug 2025
+**Software Engineer** | <img src="logos/ittia.png" height="20" style="vertical-align: middle;"> ITTIA <br> Bellevue, USA | Oct 2023 – Jul 2024 <br> Database performance optimization and an analytics dashboard
 
-- Worked on the NLP inference engine powering SwiftKey, Windows, Samsung keyboard and other partners (C++)
-- Adapted the engine for GPT-2–based models, extending support to modern transformer architectures
-- Contributed in the implementation of the ghost typing feature on the engine
-- Conducted benchmarking of engine and model integration (quality and performance) across multiple platforms, identifying and resolving critical performance bottlenecks, resulting in a 15% reduction in inference latency
-- Developed a tool for evaluating and optimizing engine by searching with various strategies and hyperparameters to assess inference engine performance and accuracy, improving en\_US locale predictions accuracy by 5%
-
-**Embedded Software Engineer** | <img src="logos/siemens.png" height="20" style="vertical-align: middle;"> Siemens <br> Cairo, Egypt | Sep 2023 – Jul 2024
-
-- Developed and integrated a CAN communication stack compliant with AUTOSAR standards, including message parsing, transmission scheduling, and error handling (C/C++)
-- Implemented a bootloader in Embedded C with Firmware Over-The-Air (FOTA), reducing update deployment time by 50%
-- Designed and deployed real-time tasks on OSEK/VDX OS, optimizing system performance and reliability, leading to a 10% improvement in task execution efficiency
-
-**Software Engineer** | <img src="logos/ittia.png" height="20" style="vertical-align: middle;"> ITTIA <br> Bellevue, USA | Oct 2023 – Jul 2024
-
-- Implemented database optimization algorithms resulting in 30% query performance improvement (C/C++)
-- Led the development of a new UI tool used for users to interact with dashboards which included multiple system/database analytics, increasing user engagement by 25% (React, Typescript)
-- Increased test coverage by 30% across multiple components of the product
-- Identified and resolved several critical performance bottlenecks on various embedded devices and platforms, such as optimizing memory usage on ARM Cortex-M microcontrollers and reducing boot times on IoT gateways
-
-**High Performance Computing Intern** | <img src="logos/brightskies.png" height="20" style="vertical-align: middle;"> Brightskies <br> Alexandria, Egypt | Jul 2023 – Sep 2023
-
-- Worked on an internal seismic data processor in supporting multiple industry formats, supporting parallel I/O and CUDA computations for large-scale geophysical datasets (C++, CUDA)
-- Developed a user-friendly command-line interface to encapsulate and simplify usage of an internal library, improving team productivity
+**High Performance Computing Intern** | <img src="logos/brightskies.png" height="20" style="vertical-align: middle;"> Brightskies <br> Alexandria, Egypt | Jul 2023 – Sep 2023 <br> Seismic data processing with parallel I/O and CUDA
 
 
 ## Teaching
@@ -78,6 +57,11 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 </div>
 
 
+## Skills
+
+C++, PyTorch, Machine Learning, Artificial Intelligence, CUDA, Triton, Python, Go, Rust, C, OMP, ONNX Runtime, MPI, Make, CMake, Ninja, Scons, Java, Scala, Docker, Git, Typescript, React
+
+
 ## Certifications
 
 - **Databricks Certified Machine Learning Professional** - Databricks
@@ -91,10 +75,3 @@ Previously, I was an Applied Scientist at Microsoft on the NLP inference engine 
 - **Supervised Machine Learning: Regression and Classification** - Coursera
 - **Unsupervised Learning, Recommenders, Reinforcement Learning** - Coursera
 - **AWS Academy Graduate - AWS Academy Cloud Foundations** - Amazon Web Services
-
-
-## Skills
-
-C++, PyTorch, Machine Learning, Artificial Intelligence, CUDA, Triton, Python, Go, Rust, C, OMP, ONNX Runtime, MPI, Make, CMake, Ninja, Scons, Java, Scala, Docker, Git, Typescript, React
-
-

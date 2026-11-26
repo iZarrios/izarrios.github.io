@@ -17,3 +17,8 @@ _site/
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 book
+
+# Local secrets
+.env
+# Generated in CI by the deploy workflow
+src/og-cache/

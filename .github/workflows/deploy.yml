@@ -30,7 +30,7 @@ jobs:
       - name: Refresh OpenGraph images
         run: |
           mkdir -p src/og-cache
-          repos="dais-polymtl/flock AlexsJones/llmfit yorukot/superfile esnet/iperf Chatterino/chatterino2"
+          repos="dais-labo/flock AlexsJones/llmfit yorukot/superfile esnet/iperf Chatterino/chatterino2"
           # The hash segment is a cache-buster; change it weekly so GitHub's CDN serves a fresh card.
           hash=$(date -u +%G%V)
           # Fetch URL $1 into file $2; succeed only if it is a non-empty PNG.
